@@ -1,0 +1,47 @@
+INCLUDED PROGRAMMING LANGUAGES
+* Web/Cloud -Mobile/IoT 
++ HTML
++ CSS
++ Pure Javascript
++ NodeJs
++ ReactJS
++ Golang
++ Ruby on Rails
++ C# ASP.NET
++AngularJS
++ PHP
++ ASP
+* Desktop computer 
++ Java
++ C#
++ TypeScript
++ Angular
++ Seift
+Rist
++ Go
++ Kotlin
+
+
+* Scientific computing
++ Pascal
+Delphi (Object Pascal)
+Fortran
++ Matlab
++ R
++ Julia
++ Perl
+
+* Education/ Research
++ BASIC
++ SiMPLE 
+
+* AR/VR/ Game
++ ARKit
++ ARCore
++ Vuforia
++ Unity
++ Unreal Engine
++ C++
++ C#
+
+
