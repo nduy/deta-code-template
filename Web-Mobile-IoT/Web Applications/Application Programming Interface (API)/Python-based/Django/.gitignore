@@ -1,0 +1,12 @@
+*~
+*.egg-info
+*.EGG-INFO
+*.log
+*.pot
+*.pyc
+*.pyo
+build/
+dist/
+*.db
+*.sqlite3
+local_settings.py

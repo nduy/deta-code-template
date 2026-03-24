@@ -1,0 +1,15 @@
+-- Single dot -> Work!
+http://127.0.0.1:8000/items/foo-item?
+Base64Code=iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAAVSURBVBhXY%2FiPBLBxGBhADCSZ%2F%2F8BpcYs1FG%2B54UAAAAASUVORK5CYII=
+
+-- Other 2x2 image
+http://127.0.0.1:8000/items/foo-item?
+Base64Code=IVBORW0KGGOAAAANSUHEUGAAAAIAAAACCAIAAAD91JPZAAAAG0LEQVR4NGIX9LUR%2BTAZRSF0OTYXFKAAAAD%2F%2FYHYBNLBGRJRAAAAAELFTKSUQMCC
+Careful 
+/ was replaced by %2F
++ was replaced by %2B
+URL Encode:
+https://checkserp.com/encode/urlencode/
+Request template:
+http://127.0.0.1:8000/items/foo-item?
+Base64Code=###
