@@ -1,0 +1,5 @@
+$ node ./src/index.js
+Example app listening on port 5000
+
+On browser, try:
+http://localhost:5000/?param1=red&param2=blue

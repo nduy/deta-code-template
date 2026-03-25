@@ -1,0 +1,2 @@
+Install the package & save it as dependency:
+npm install simplenodeapi
