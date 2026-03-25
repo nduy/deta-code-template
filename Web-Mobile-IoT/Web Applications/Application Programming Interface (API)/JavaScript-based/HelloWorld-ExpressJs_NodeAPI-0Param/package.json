@@ -1,0 +1,14 @@
+{
+  "name": "simplenodeapi",
+  "version": "1.0.0",
+  "description": "Simple NodeJS Web API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DDNg",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
