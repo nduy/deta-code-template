@@ -1,0 +1,6 @@
+On commandline:
+java -jar Javalin-Synonym.jar
+
+On browser:
+http://localhost:7777/cakes/chocolate
+http://localhost:7777/cakes/apple
