@@ -16,7 +16,25 @@ __initialisation_date__ = "Jan 1,2001"
 __estimated_complete_date__ = "June 6, 2001"
 # ΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔΔ
 # Class definition
-      
+class Dog:
+    species = "Canis familiaris"
+
+    def __init__(self, name, age, breed):
+        self.name = name
+        self.age = age
+        self.breed = breed
+
+    def __str__(self):
+        return f"{self.name} is {self.age} years old"
+
+    def speak(self, sound):
+        return f"{self.name} says {sound}"
+        
+# Inheritance
+
+class BabyDog(Dog):
+    def speakgently(self, sound):
+        return f"{self.name} says gently {sound}"       
 
 # Function definition    
 def my_function():
@@ -30,8 +48,8 @@ def main():
 
     miles = Dog("Miles", 4, "Jack Russell Terrier")
     buddy = Dog("Buddy", 9, "Dachshund")
-    bob= BabyDog(buddy)
-    jack = Dog("Jack", 3, "Bulldog")
+    bob= Dog("Miles", 4, "Jack Russell Terrier")
+    jack = BabyDog("Jack", 3, "Bulldog")
     jim = Dog("Jim", 5, "Bulldog")
     
     
@@ -39,7 +57,7 @@ def main():
     print(buddy.speak("Yap"))
     print(jim.speak("Woof"))
     print(jack.speak("Woof"))
-    print(bob.speak("Sh!! Woof"))
+    print(jack.speakgently("Sh!! Woof"))
     
 if __name__ == "__main__":
     main()
