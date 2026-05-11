@@ -1,0 +1,23 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "Template for NodeJS project by Delta",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "delta-node-js-project-template"
+  },
+  "keywords": [
+    "delta",
+    "project",
+    "template"
+  ],
+  "author": "Delta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
