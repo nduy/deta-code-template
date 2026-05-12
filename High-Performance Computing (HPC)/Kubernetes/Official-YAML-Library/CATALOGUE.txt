@@ -5,3 +5,7 @@ Source: Official Kubernetes documentation: https://kubernetes.io/docs
 Listing:
 
 1. simple-pod.yaml: simple pod of nginx1.14.2
+2. deployment.yaml:deployment with 2 replicas of the same pod running nginx1.14.2
+
+
+
